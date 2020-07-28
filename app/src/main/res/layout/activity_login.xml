@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorMainBackground"
+    tools:context=".LoginActivity">
+
+    <TextView
+        android:id="@+id/appCompatTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="250sp"
+        android:text="@string/appName"
+        android:textColor="@color/colorWhite"
+        android:textSize="36sp"
+        android:layout_marginTop="200sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/etLogin"
+        android:layout_width="300sp"
+        android:layout_height="45sp"
+        android:background="@color/colorInputView"
+        android:hint="@string/loginInput"
+        android:paddingStart="20sp"
+        android:textColor="@color/colorWhite"
+        android:textColorHint="@color/colorHintText"
+        android:textSize="12sp"
+        android:layout_marginTop="75sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/appCompatTextView"
+        tools:ignore="RtlSymmetry" />
+
+    <EditText
+        android:id="@+id/appCompatEditText"
+        android:layout_width="300sp"
+        android:layout_height="45sp"
+        android:layout_marginTop="15sp"
+        android:background="@color/colorInputView"
+        android:hint="@string/password"
+        android:paddingStart="20sp"
+        android:textColor="@color/colorWhite"
+        android:textColorHint="@color/colorHintText"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etLogin"
+        tools:ignore="RtlSymmetry" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="300sp"
+        android:layout_height="45sp"
+        android:layout_marginTop="15sp"
+        android:background="@color/colorActiveElement"
+        android:inputType="textAutoCorrect"
+        android:text="@string/login"
+        android:textColor="@color/colorWhite"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/appCompatEditText"
+        tools:ignore="TextViewEdits" />
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="2sp"
+        android:layout_marginTop="60sp"
+        android:background="@color/colorInputView"
+        app:layout_constraintTop_toBottomOf="@+id/button"
+        tools:ignore="SmallSp" />
+
+    <Button
+        android:id="@+id/button_fb"
+        android:layout_width="300sp"
+        android:layout_height="30sp"
+        android:layout_marginTop="60sp"
+        android:text="@string/login_with_facebook"
+        android:textColor="@color/colorWhite"
+        android:inputType="textAutoCorrect"
+        android:background="@android:color/holo_blue_dark"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:paddingLeft="50sp"
+        android:paddingRight="50sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view"
+        tools:ignore="TextViewEdits" />
+
+    <Button
+        android:layout_width="300sp"
+        android:layout_height="30sp"
+        android:layout_marginTop="15sp"
+        android:text="@string/login_with_instagram"
+        android:textColor="@color/colorWhite"
+        android:inputType="textAutoCorrect"
+        android:background="@android:color/holo_purple"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        android:paddingLeft="50sp"
+        android:paddingRight="50sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_fb"
+        tools:ignore="TextViewEdits" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/by_continuing_you_agree_our_privacy_policy"
+        android:textColor="@color/colorWhite"
+        android:layout_marginBottom="10sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

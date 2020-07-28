@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">ManagerFollowersAndUnfollowers</string>
+    <string name="appName">InstaFollowers</string>
+    <string name="loginInput">Phone number, email or usermane</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="login_with_facebook">Login with Facebook</string>
+    <string name="login_with_instagram">Login with Instagram</string>
+    <string name="by_continuing_you_agree_our_privacy_policy">By continuing, you agree our <u>Privacy Policy</u></string>
 </resources>
