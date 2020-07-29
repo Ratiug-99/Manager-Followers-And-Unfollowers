@@ -7,4 +7,10 @@
     <string name="login_with_facebook">Login with Facebook</string>
     <string name="login_with_instagram">Login with Instagram</string>
     <string name="by_continuing_you_agree_our_privacy_policy">By continuing, you agree our <u>Privacy Policy</u></string>
+    /////////////////////////
+    <string name="instagram_app_id">4755568007847355</string>
+    <string name="instagram_secret">d049c19df5ba98a413ce193f96b048a8</string>
+    <string name="instagram_redirect_uri">https://github.com/Ratiug-99</string>
+    ////////////////////////
+
 </resources>
